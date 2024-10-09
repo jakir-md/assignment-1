@@ -19,14 +19,14 @@
 }
 
 /* navigation bar design */
-.resume-download-btn{
+.resume-download-btn, .contact-me-btn{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     padding: 14px 20px 14px 20px;
     font-weight: 800px;
     color: rgb(13, 19, 33);
-    font-size: 20px;
+    font-size: 22px;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
@@ -39,7 +39,137 @@
 }
 .navigation-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
+    margin: 25px 140px 30px 140px;
+}
+
+
+/* hero section design */
+#hero {
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me-btn{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    margin: 20px 0px;
+}
+.hero-tittle{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.hero-text{
+    width: 900px;
+}
+.hero-description{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: .7;
+}
+.hero-image{
+    margin-top: 20px;
+}
+
+
+/* development section design */
+.why-development{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    max-width: 950px;
+    padding: 75px 90px;
+    margin: 70px 145px;
+}
+.develop-title{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.develop-description{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+    margin-bottom: 45px;
+}
+.card{
+    display: flex;
+    padding: 45px;
+}
+.card-1{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.dev-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.dev-description{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.learn-more-btn{
+    box-sizing: border-box;
+    border: 1.5px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.card-2{
+    border-radius: 16px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 30px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+/* inspiration section design */
+.inspiration-section{
+    max-width: 950px;
+    margin: 20px auto;
+}
+.inspiration-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 10px;
+}
+.frame-video{
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 10px;
+    margin-left: 3px;
 }
