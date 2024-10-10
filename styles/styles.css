@@ -33,6 +33,10 @@
     background-color: white;
     cursor: pointer;
 }
+.contact-me-btn a{
+    text-decoration: none;
+    color: white;
+}
 .nav-title{
     font-weight: 800px;
     font-size: 28px;
@@ -109,7 +113,7 @@
     margin-top: 20px;
     opacity: 0.7;
     margin-bottom: 45px;
-    padding: 0px 140px;
+    padding: 0px 100px;
 }
 .card{
     display: flex;
@@ -278,4 +282,25 @@
     opacity: 0.7;
     margin: 16px 0px 24px 0px;
     padding: 0 75px;
+}
+
+
+
+/* footer section design */
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 15px 20px;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+}
+footer h3{
+    margin-left: 140px;
+}
+footer .socials{
+    margin-right: 140px;
 }
